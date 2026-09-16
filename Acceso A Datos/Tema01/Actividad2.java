@@ -54,8 +54,8 @@ public class Actividad2 {
 
         // TODO: EJERCICIO 1
         // Escribe aquí tu solución.
-        
-        File datos = new File("\"C:\\Users\\Usuario\\Documents\\Programacion\\Acceso A Datos\\Tema01\\datos.txt\"");
+        System.out.println("\n===== EJERCICIO 1 =====");
+        File datos = new File("datos.txt");
 
         if (!datos.exists()) {
             datos.createNewFile();
