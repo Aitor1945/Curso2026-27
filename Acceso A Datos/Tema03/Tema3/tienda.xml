@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+    <producto>
+        <nombre>iPhone 15</nombre>
+        <precio>799.99</precio>
+        <stock>10</stock>
+    </producto>
+
+    <producto>
+        <nombre>Samsung Galaxy S24</nombre>
+        <precio>699.99</precio>
+        <stock>15</stock>
+    </producto>
+
+    <producto>
+        <nombre>MacBook Air M3</nombre>
+        <precio>1199.99</precio>
+        <stock>7</stock>
+    </producto>
+
+    <producto>
+        <nombre>PlayStation 5</nombre>
+        <precio>499.99</precio>
+        <stock>12</stock>
+    </producto>
+</tienda>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <id>1</id>
+        <nombre>Lucía Fernández</nombre>
+        <edad>19</edad>
+        <curso>1º DAM</curso>
+    </alumno>
+    <alumno>
+        <id>2</id>
+        <nombre>Carlos Martínez</nombre>
+        <edad>20</edad>
+        <curso>1º DAM</curso>
+    </alumno>
+    <alumno>
+        <id>3</id>
+        <nombre>Ana Torres</nombre>
+        <edad>18</edad>
+        <curso>2º DAM</curso>
+    </alumno>
+    <alumno>
+        <id>4</id>
+        <nombre>Javier López</nombre>
+        <edad>21</edad>
+        <curso>2º DAM</curso>
+    </alumno>
+    <alumno>
+        <id>5</id>
+        <nombre>María Sánchez</nombre>
+        <edad>19</edad>
+        <curso>1º DAM</curso>
+    </alumno>
+</alumnos>

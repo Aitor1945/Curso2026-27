@@ -90,8 +90,7 @@ public class Actividad3 {
                 System.out.println("Fichero origen: " + ficheroOrigen.getName());
                 System.out.println("Fichero destino: " + ficheroDestino.getName());
                 System.out.println("Tamano origen: " + tamañoOrigen + " bytes");
-                System.out.println("Tamano destino: " + tamañoDestino + " bytes");
-                
+                System.out.println("Tamano destino: " + tamañoDestino + " bytes");              
         
     }
 }
