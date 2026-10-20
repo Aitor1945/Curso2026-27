@@ -1,0 +1,18 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: mysql-ad
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root          # contraseña del usuario root
+      MYSQL_DATABASE: accesodatos        # base de datos que se crea al arrancar
+      MYSQL_USER: aitor                  # tu usuario (no root)
+      MYSQL_PASSWORD: mipass123          # contraseña de tu usuario
+      TZ: Europe/Madrid
+    ports:
+      - "3307:3306"                      # 3307 en tu PC -> 3306 dentro del contenedor
+    volumes:
+      - mysql_data:/var/lib/mysql        # los datos se guardan aunque borres el contenedor
+
+volumes:
+  mysql_data:
